@@ -24,13 +24,15 @@ This kata is divided into seven tasks, organized into two main phases: setting u
 
 The repository is organized, with each task located in its own folder. Each task folder contains a README.md file with the task description. Additionally there are three additional folders: `desktop-app`, `website` and `templates`. In `desktop-app` there is electron application that will be used in tasks 2, 3, 4 and 6. In the `website` folder, there is a website that will be used in task 5. In `templates` folder are templates that you can use in your actions.
 
-There are several branches included in this repository. The `main` branch contains the initial setup of the repository. For each task there is `task-*` branch that contains the solution for that task. You can use these branches to check for hints and working solutions. Before doing that, try to solve the task on your own.
+There are several branches included in this repository. The `main` branch contains the initial setup of the repository. For each task there is `task-*-solution` branch that contains the solution for that task. You can use these branches to check for hints and working solutions. Before doing that, try to solve the task on your own.
 
 ## Getting Started
 
 1. Fork this repository
 2. Clone the forked repository to your machine
 3. Go to the first task folder and read the README.md file
+4. Create branch `task-1` and start working on the task
+5. After you finish the task, create a PR to the `main` branch
 
 ## GitHub Actions Pricing
 

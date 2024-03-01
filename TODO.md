@@ -1,0 +1,17 @@
+- [x] Add desktop-app
+- [x] Add website
+- [ ] Add templates
+- [x] Add task-1
+- [x] Add task-2
+- [x] Add task-3
+- [x] Add task-4
+- [ ] Add task-5
+- [ ] Add task-6
+- [ ] Add task-7
+- [ ] Add task-1 solution
+- [ ] Add task-2 solution
+- [ ] Add task-3 solution
+- [ ] Add task-4 solution
+- [ ] Add task-5 solution
+- [ ] Add task-6 solution
+- [ ] Add task-7 solution

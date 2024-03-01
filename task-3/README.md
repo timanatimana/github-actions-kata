@@ -18,7 +18,7 @@ You still want to use monorepo for the code. To save the costs you were asked yo
 </details>
 
 <details>
-<summary>In case you are stuck, you can use the resousrces listed below. Try to first look yourself. The resources are listed in the order from minimal to full help</summary>
+<summary>In case you are stuck, you can use the resources listed below. Try to first look yourself. The resources are listed in the order from minimal to full help</summary>
 
 1. [Branch with ready solution]()
 </details>

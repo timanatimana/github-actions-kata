@@ -5,9 +5,9 @@
 - [x] Add task-2
 - [x] Add task-3
 - [x] Add task-4
-- [ ] Add task-5
-- [ ] Add task-6
-- [ ] Add task-7
+- [x] Add task-5
+- [x] Add task-6
+- [x] Add task-7
 - [ ] Add task-1 solution
 - [ ] Add task-2 solution
 - [ ] Add task-3 solution
@@ -15,3 +15,4 @@
 - [ ] Add task-5 solution
 - [ ] Add task-6 solution
 - [ ] Add task-7 solution
+- [ ] Task 6 - add paths as a hint. Recommend people to look for paths themselves

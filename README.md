@@ -38,6 +38,8 @@ There are several branches included in this repository. The `main` branch contai
 
 GitHub Actions is free for public repositories. For private repositories, up to 2000 **Linux** minutes per month are available at no charge. For detailed pricing information, visit the [GitHub Actions billing page](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions). Working on a public fork of this repository is recommended.
 
+[Pricing calculator](https://github.com/pricing/calculator)
+
 ## Contribution Guidelines
 
 - To propose a new task, **open an issue**.

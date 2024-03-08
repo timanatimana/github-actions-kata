@@ -1,6 +1,6 @@
 - [x] Add desktop-app
 - [x] Add website
-- [ ] Add templates
+- [x] Add templates
 - [x] Add task-1
 - [x] Add task-2
 - [x] Add task-3

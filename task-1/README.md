@@ -18,9 +18,11 @@ Example output:
 <summary> Those hints will help you start</summary>
 
 - [ENV variables provided by GitHub](https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables)
-- Use `push` event trigger
+- Use `push` event trigger - [other events](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
+- Use linux os - [operating systems](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners#standard-github-hosted-runners-for-public-repositories)
 - Basic GitHub action template in [templates](./templates) folder
 - Before listing files, first checkout the code `actions/checkout@v4`
+- [Action workflow syntax](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#create-an-example-workflow)
 </details>
 
 <details>

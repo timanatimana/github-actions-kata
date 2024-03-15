@@ -1,6 +1,6 @@
 # Task 5 - 1
 
-Last week the management team was not pleased when they checked the company website and realized that it is a version from 2 months ago. The developer responsible for the website said that locally and in the repository there is up to date version of the website. After short investigation it turned out that they forgot to deploy the website to the server. Your task now is to add website deployment to the pipeline. Whenever there are changes to website directory and the commit is on the main branch the website should be deployed to the server.
+Your task now is to add website deployment to the pipeline. Whenever there are changes to website directory and the commit is on the main branch the website should be deployed to the server.
 
 The website is configured to be deployed to firebase, but you can choose any other hosting provider.
 
@@ -16,18 +16,24 @@ The website is configured to be deployed to firebase, but you can choose any oth
 <summary>Those hints will help you start</summary>
 
 - [secrets](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions)
+- [variables](https://docs.github.com/en/actions/learn-github-actions/variables#using-the-vars-context-to-access-configuration-variable-values)
+- Firebase
+    - [Firebase deploy action](https://github.com/FirebaseExtended/action-hosting-deploy)
+        - [Action options](https://github.com/FirebaseExtended/action-hosting-deploy?tab=readme-ov-file#options)
+    - [Firebase Service Account](https://github.com/FirebaseExtended/action-hosting-deploy/blob/main/docs/service-account.md)
+    - [How to create firebase project](../website/README.md)
 
 </details>
 
 <details>
 <summary>In case you are stuck, you can use the resources listed below. Try to first look yourself. The resources are listed in the order from minimal to full help</summary>
 
-1. [Branch with ready solution]()
+1. [Branch with ready solution](https://github.com/Ubax/github-actions-kata/pull/7)
 </details>
 
 ## Task 5 - 2
 
-In this version do the PoC version of the task. Instead of actually deploying the website to the server, print the login and password that is stored in GitHub secrets. (Hint: don't use real credentials)
+In this version do the PoC version of the task. Instead of actually deploying the website to the server, print the login and password that is stored in GitHub secrets.
 
 ## Definition of done
 
@@ -38,12 +44,5 @@ In this version do the PoC version of the task. Instead of actually deploying th
 <details>
 <summary>Those hints will help you start</summary>
 
-- `npm run e2e`
-- [artifacts](https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#uploading-build-and-test-artifacts)
-</details>
-
-<details>
-<summary>In case you are stuck, you can use the resources listed below. Try to first look yourself. The resources are listed in the order from minimal to full help</summary>
-
-1. [Branch with ready solution]()
+- [secrets](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions)
 </details>

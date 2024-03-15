@@ -14,6 +14,7 @@ Except for unit tests you also have e2e tests for your application. Add them to 
 
 - `npm run e2e`
 - [artifacts](https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#uploading-build-and-test-artifacts)
+- [paths where screenshots are saved](./paths.md)
 </details>
 
 <details>

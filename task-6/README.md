@@ -1,4 +1,4 @@
-# Task 5
+# Task 6
 
 Your team realized that they spend a lot of time building apps for releases and in many cases there is something to fix on one or the other platform. Now they would like to build the application as part of the pipeline. The application is a multi-platform application, that should run on Linux, Windows and Mac.
 

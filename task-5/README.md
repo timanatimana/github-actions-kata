@@ -2,6 +2,8 @@
 
 Last week the management team was not pleased when they checked the company website and realized that it is a version from 2 months ago. The developer responsible for the website said that locally and in the repository there is up to date version of the website. After short investigation it turned out that they forgot to deploy the website to the server. Your task now is to add website deployment to the pipeline. Whenever there are changes to website directory and the commit is on the main branch the website should be deployed to the server.
 
+The website is configured to be deployed to firebase, but you can choose any other hosting provider.
+
 ## Definition of done
 
 - [ ] Whenever commit is committed to main branch, and there are changes to website directory, the website is deployed to the server.

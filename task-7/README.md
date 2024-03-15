@@ -12,3 +12,5 @@ Here are topics that were not covered by the previous tasks:
 - [Issues & project management](https://docs.github.com/en/actions/managing-issues-and-pull-requests/using-github-actions-for-project-management)
 - [Running docker container in workflow](https://docs.github.com/en/actions/using-containerized-services/about-service-containers)
 - [Custom actions](https://docs.github.com/en/actions/creating-actions/about-custom-actions)
+- [Concurrency](https://docs.github.com/en/actions/using-jobs/using-concurrency)
+- [Permissions](https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs)

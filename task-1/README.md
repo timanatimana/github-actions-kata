@@ -8,13 +8,7 @@ Time to warm up. In your first task you will create a GitHub action that prints 
 - [ ] For push action displays the branch and commit ref 
 - [ ] Action lists the files that are in the repository
 
-** Remember to create a new branch for this task **
-
-** THIS IS NOT A VALID YAML: **
-```yaml
-test:
-  echo "test: cannot use colon even in quotes"
-```
+*** Remember to create a new branch for this task ***
 
 Example output for PR:
 ![Job 1 result](../img/job1-pr.png)

@@ -28,5 +28,5 @@ Your team realized that they spend a lot of time building apps for releases and 
 <details>
 <summary>In case you are stuck, you can use the resources listed below. Try to first look yourself. The resources are listed in the order from minimal to full help</summary>
 
-1. [Branch with ready solution]()
+1. [Branch with ready solution](https://github.com/Ubax/github-actions-kata/pull/8)
 </details>

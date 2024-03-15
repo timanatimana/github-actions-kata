@@ -14,7 +14,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "test": "vitest",
-    "e2e": "npx playwright test",
+    "e2e": "npm run build && npx playwright test",
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make"

@@ -2,8 +2,6 @@
 
 Time to warm up. In your first task you will create a GitHub action that prints basic information about itself and then lists all the files that are currently in the repository
 
-Dummy Commit Change
-
 ## Definition of done
 
 - [ ] Action displays the branch and commit ref

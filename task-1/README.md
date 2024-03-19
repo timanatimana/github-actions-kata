@@ -4,16 +4,11 @@ Time to warm up. In your first task you will create a GitHub action that prints 
 
 ## Definition of done
 
-- [ ] For pull request (PR) action displays the base and head branches of the PR (e.g. base: `main`, head: `task-1`)
-- [ ] For push action displays the branch and commit ref 
+- [ ] Action displays the branch and commit ref
 - [ ] Action lists the files that are in the repository
 
-*** Remember to create a new branch for this task ***
+**_ Remember to create a new branch for this task _**
 
-Example output for PR:
-![Job 1 result](../img/job1-pr.png)
-
-Example output for Commit:
 ![Job 1 result](../img/job1-push.png)
 
 ## Hints & help
@@ -21,19 +16,20 @@ Example output for Commit:
 <details>
 <summary> Those hints will help you start</summary>
 
-- [Github context](https://docs.github.com/en/actions/learn-github-actions/contexts#github-context) - provides information about the GitHub job and event
-- [ENV variables provided by GitHub](https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables)
-- Use `push` and `pull_request` event triggers - [other events](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
-- Use linux os - [operating systems](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners#standard-github-hosted-runners-for-public-repositories)
-- Basic GitHub action template in [templates](./templates) folder
-- Before listing files, first checkout the code `actions/checkout@v4`
-- [Action workflow syntax](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#create-an-example-workflow)
 - [Quickstart](https://docs.github.com/en/actions/quickstart)
-</details>
+- GitHub action template in [templates](../templates) folder
+- Use `push` event trigger - [other events](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
+- Use linux os - [operating systems](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners#standard-github-hosted-runners-for-public-repositories)
+- Before listing files, first checkout the code `actions/checkout@v4`
 
-<details>
-<summary>In case you are stuck, you can use the resources listed below. Try to first look yourself. The resources are listed in the order from minimal to full help</summary>
+If you want to learn and experiment more, you can use the following resources:
 
-1. [Understanding GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
-2. [PR with ready solution](https://github.com/Ubax/github-actions-kata/pull/1)
+- [Action workflow syntax](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#create-an-example-workflow) - detail explanation of each of the fields in the workflow file
+- [Github context](https://docs.github.com/en/actions/learn-github-actions/contexts#github-context) - provides information about the GitHub job and event as variables
+- [ENV variables provided by GitHub](https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables)
+- [Understanding GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+
+Here is an example solution for this task:
+
+- [PR with ready solution](https://github.com/Ubax/github-actions-kata/pull/1)
 </details>

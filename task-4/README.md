@@ -2,10 +2,13 @@
 
 Except for unit tests you also have e2e tests for your application. Add them to CI whenever the app code is changed.
 
+To run electron E2E tests in github actions you need to start virtual client with screen in Ubuntu. `xvfb-run --auto-servernum --server-args="-screen 0 1280x960x24" -- npm run e2e`
+
 ## Definition of done
 
-- [ ] Whenever code is changed for desktop-app e2e tests are run.
-- [ ] Screenshots are saved from the tests that failed from the moment in which they failed with retention of 7 days
+- [ ] Whenever code is changed for `desktop-app`, e2e tests are run.
+- [ ] When any test fails, screenshots from the tests that failed, are saved as one zip archive with retention of 7 days
+- [ ] Optional: Url of the zip archive is displayed
 
 ## Hints & help
 
@@ -13,14 +16,13 @@ Except for unit tests you also have e2e tests for your application. Add them to 
 <summary>Those hints will help you start</summary>
 
 - `npm run e2e`
-- [artifacts](https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#uploading-build-and-test-artifacts)
-- [paths where screenshots are saved](./paths.md)
+- [artifacts](https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts#uploading-build-and-test-artifacts) - how to save files from the job
+- Playwright saves screenshots in `desktop-app/test-results/[TEST_FILE_NAME]/[TEST_NAME].png`.
 - [running step when previous step fails](https://docs.github.com/en/actions/learn-github-actions/expressions#failure)
-- To run electron e2e in github actions you need to start virtual client with screen in ubuntu. `xvfb-run --auto-servernum --server-args="-screen 0 1280x960x24" -- npm run e2e`
-</details>
+- [using output of the previous step](https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs)
+- [outputs of upload action](https://github.com/actions/upload-artifact?tab=readme-ov-file#outputs)
 
-<details>
-<summary>In case you are stuck, you can use the resources listed below. Try to first look yourself. The resources are listed in the order from minimal to full help</summary>
+Here is an example solution for this task:
 
-1. [PR with ready solution](https://github.com/Ubax/github-actions-kata/pull/5)
+- [PR with ready solution](https://github.com/Ubax/github-actions-kata/pull/5)
 </details>

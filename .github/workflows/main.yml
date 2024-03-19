@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   pull_request:
     paths:
-      - 'desktop-app/**'
+      - 'desktop-app/**/*.ts'
 jobs:
   PR-Job:
     runs-on: ubuntu-latest

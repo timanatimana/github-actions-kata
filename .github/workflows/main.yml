@@ -1,6 +1,9 @@
 name: GitHub Actions PR
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [pull_request]
+on:
+  pull_request:
+    paths:
+      -desktop-app/**'
 jobs:
   PR-Job:
     runs-on: ubuntu-latest

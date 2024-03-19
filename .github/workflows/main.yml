@@ -15,6 +15,7 @@ jobs:
         with:
             node-version: 'node'
             cache: 'npm'
+            cache-dependency-path: ../../desktop-app/package-lock.json
       - name: Install dependencies
         run: npm ci
         working-directory: ../../desktop-app/

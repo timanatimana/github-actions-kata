@@ -12,6 +12,7 @@ describe("Tests for sum function", () => {
     [1, 1.2, 2.2],
     [0, -0.1, -0.1],
   ])("%d + %d = %d", (a, b, result) => {
+    // comment
     expect(sum(a, b)).toBe(result);
   });
 
